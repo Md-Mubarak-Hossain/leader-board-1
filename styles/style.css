@@ -1,0 +1,190 @@
+/* fonts-poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* commonly or utilize */
+body {
+
+    margin: 0;
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+.header {
+    overflow: hidden;
+    background-color: blue;
+    width: 100%;
+    height: 94px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#over {
+    overflow: scroll;
+}
+
+.logo-idea img {
+    height: 51px;
+    width: 40.424137115478516px;
+
+
+}
+
+.header-container {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-menu {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.menu {
+    color: #fff;
+    margin-left: 15px;
+}
+
+/* main */
+main {
+    display: grid;
+    justify-content: center;
+
+}
+
+/* container */
+.container {
+
+    background-color: #fff;
+    height: 679px;
+    width: 870px;
+
+    margin-top: 130px;
+    border-radius: 5px;
+
+
+}
+
+/*top- players */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 18px;
+
+
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player-name {
+    margin-left: 18px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.line {
+    width: 807px
+}
+
+/* blog */
+.top-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog {
+    display: flex;
+    margin-left: 26px;
+    margin-top: 26px;
+
+}
+
+.blog-name {
+    margin-left: 16px;
+    font-size: 20px;
+
+}
+
+.author-name {
+    color: blue;
+
+
+}
+
+.blog h5 {
+    margin-left: 16px;
+}
+
+.blog img {
+    height: 105px;
+    width: 224px;
+
+    border-radius: 0px;
+
+}
+
+/* courses */
+.course-container {
+    background-color: #fff;
+    height: 362px;
+    width: 870px;
+    border-radius: 5px;
+
+    margin-top: 21px;
+}
+
+.lates-course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 868px;
+    height: 270px;
+
+    justify-content: space-around;
+
+}
+
+.course {
+
+    height: 269.7856750488281px;
+    width: 252.4232177734375px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -2.5px -2.5px 5px 5px rgb(247, 244, 244);
+
+
+}
+
+.course img {
+
+    width: 224px;
+    height: 104px;
+}
+
+.course-name {
+    font-size: 20.03px;
+}
+
+.small-heading {
+    font-size: 14.69px;
+}
+
+.top-name {
+    font-size: 24px;
+    margin: 18px;
+    color: blue;
+}
